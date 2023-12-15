@@ -1,0 +1,10 @@
+{
+  "entryPoints": [
+    "src/index.ts"
+  ],
+  "out": "docs",
+  "name": "Pixi3D",
+  "includeVersion": true,
+  "excludeExternals": false,
+  "excludePrivate": true
+}

@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "importHelpers": true,
+    "outDir": "out/",
+    "strict": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es2017",
+    "downlevelIteration": true,
+    // This source map setting needs to be disabled for rollup.
+    // "sourceMap": true,
+    "declaration": true,
+    "declarationDir": "types",
+    // Required for docs
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "paths": {
+      "mini-signals": [
+        "./node_modules/resource-loader/typings/mini-signals.d.ts"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
